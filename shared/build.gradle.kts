@@ -53,7 +53,7 @@ android {
 }
 
 group = "com.github.firzaelbuho"
-version = "1.0.4"
+version = "1.0.5"
 
 publishing {
     publications {
