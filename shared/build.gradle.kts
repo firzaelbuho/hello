@@ -53,13 +53,13 @@ android {
 }
 
 group = "com.github.firzaelbuho"
-version = "1.0.2"
+version = "1.0.4"
 
 publishing {
     publications {
         create<MavenPublication>("maven") {
             from(components["kotlin"])
-            artifactId = "module"
+            artifactId = "hello"
         }
     }
      repositories {
